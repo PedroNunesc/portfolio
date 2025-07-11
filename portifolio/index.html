@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEU PORTFÓLIO</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-habilidades">
+            <section id="introducao">
+                <h2>Olá! Meu nome é Pedro Henrique Nunes Carlos</h2>
+                <p>Tenho 16 anos, estou no segundo ano do ensino médio</p>
+                <p>Estou fazendo um curso de Desenvolvimento de Sistemas no SENAC</p>
+                <p>Sou um programador full stack</p>
+            </section>
+    
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </section>
+        </div>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+        
+            <div class="projetos-container">
+                <div class="projeto">
+                    <h3>Projeto 01</h3>
+                    <p>Exercício realizado na aula 09 de Front-end.</p>
+                    <p>Loja de tenis, desenvolovido com HTML/CSS.</p>
+                    <a href="https://github.com/PedroNunesc/materiaFront/tree/main/AULA09" target="_blank">Ver Projeto</a>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 02</h3>
+                    <p>Trabalho realizado na aula 10 de Front-end.</p>
+                    <p>Site de filmes, desenvolovido com HTML/CSS.</p>
+                    <a href="https://github.com/PedroNunesc/materiaFront/tree/main/AULA10" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        
+            <div class="projetos-container" id="lista-projetos">
+            </div>
+        </section>        
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pedro Henrique Nunes Carlos</p>
+    </footer>
+
+</body>
+
+</html>
